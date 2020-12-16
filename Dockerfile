@@ -1,6 +1,6 @@
 FROM alpine
 
-ARG KUBECTL_VERSION=1.18.0
+ARG KUBECTL_VERSION=1.20.0
 ARG HELM_VERSION=3.2.1
 
 RUN apk add --update --no-cache curl ca-certificates bash git python3 && \
